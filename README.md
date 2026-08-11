@@ -41,11 +41,11 @@ Cross-filter by gender, subscription, category, season, or shipping type — eve
 
 ```mermaid
 flowchart LR
-    A["Raw CSV\n3,900 transactions"] --> B["Python\nclean + engineer features"]
-    B --> C[("PostgreSQL /\nMySQL / SQL Server")]
-    C --> D["SQL\n10 business questions"]
-    D --> E["Power BI\ninteractive dashboard"]
-    E --> F["Report +\nrecommendations"]
+    A["Raw CSV<br/>3,900 transactions"] --> B["Python<br/>clean + engineer features"]
+    B --> C["PostgreSQL / MySQL / SQL Server"]
+    C --> D["SQL<br/>10 business questions"]
+    D --> E["Power BI<br/>interactive dashboard"]
+    E --> F["Report +<br/>recommendations"]
 ```
 
 **Phase 1 — Python** (`Customer_Shopping_Behavior_Analysis.ipynb`): profiled the data, imputed 37 missing `review_rating` values with each category's median, standardized columns to snake_case, engineered `age_group` (quartile bins) and `purchase_frequency_days`, dropped `promo_code_used` (100% redundant with `discount_applied`), and loaded the clean table into SQL via SQLAlchemy.
