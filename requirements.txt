@@ -1,0 +1,6 @@
+pandas>=2.0
+SQLAlchemy>=1.4,<2.0
+psycopg2-binary>=2.9      # PostgreSQL driver
+PyMySQL>=1.1               # MySQL driver
+pyodbc>=4.0                 # SQL Server driver (requires ODBC Driver 17 installed separately)
+python-dotenv>=1.0          # optional: load .env file into environment variables
