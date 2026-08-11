@@ -133,8 +133,7 @@ This project is licensed under the MIT License — see [`LICENSE`](LICENSE) for 
 
 ## Connect
 
-**ٍSaleh Mahbub**
-LinkedIn: `linkedin.com/in/saleh-mahbub-aa717b159`
-`salehmahbub8@gmail.com`
+**Saleh Mahbub**
+LinkedIn: [linkedin.com/in/saleh-mahbub-aa717b159](https://www.linkedin.com/in/saleh-mahbub-aa717b159) · Email: [salehmahbub8@gmail.com](mailto:salehmahbub8@gmail.com)
 
 *If you spot something in the analysis worth pushing back on, open an issue.*
