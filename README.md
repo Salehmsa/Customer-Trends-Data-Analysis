@@ -7,9 +7,9 @@
 
 An end-to-end data analytics pipeline — **Python → SQL → Power BI** — on 3,900 retail transactions, answering one question: *how can a retailer use its own shopping data to grow revenue, improve retention, and target its marketing budget correctly?*
 
-### [**→ Open the Live Interactive Dashboard**](https://<your-username>.github.io/<your-repo>/)
+### [**→ Open the Live Interactive Dashboard**](https://salehmsa.github.io/Customer-Trends-Data-Analysis/)
 
-Cross-filter by gender, subscription, category, season, or shipping type — every KPI and chart updates instantly, no install required. *(Placeholder link — update it with your GitHub Pages URL once "Phase 4" below is set up.)*
+Cross-filter by gender, subscription, category, season, or shipping type — every KPI and chart updates instantly, no install required.
 
 ---
 
@@ -110,8 +110,8 @@ customer-trends-data-analysis-SQL-Python-PowerBI/
 ## How to Reproduce
 
 ```bash
-git clone https://github.com/<your-username>/customer-trends-data-analysis-SQL-Python-PowerBI.git
-cd customer-trends-data-analysis-SQL-Python-PowerBI
+git clone https://github.com/Salehmsa/Customer-Trends-Data-Analysis.git
+cd Customer-Trends-Data-Analysis
 python -m venv venv && source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env   # fill in your DB credentials, then export them (never hardcode)
